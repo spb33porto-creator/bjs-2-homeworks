@@ -1,4 +1,4 @@
-#Задание_1
+// Задание 1
 function compareArrays(arr1, arr2) {
     if (arr1.length !== arr2.length) return false;
     return arr1.every((el, idx) => el === arr2[idx]);
@@ -10,7 +10,7 @@ console.log(compareArrays([9, 2, 4, 8, 2], [9, 2, 4]));
 console.log(compareArrays([1, 2, 3], [2, 3, 1]));
 console.log(compareArrays([8, 1, 2], [8, 1, 2]));
 
-#Задание_2
+// Задание 2
 function getUsersNamesInAgeRange(users, gender) {
     const filteredUsers = users.filter(user => user.gender === gender);
     if (!filteredUsers.length) return 0;
